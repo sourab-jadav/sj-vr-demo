@@ -136,6 +136,10 @@
   color: #888;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
 
 .logos img {
   height: 3.2rem;

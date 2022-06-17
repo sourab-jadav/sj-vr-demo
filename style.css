@@ -9,7 +9,7 @@ font-family: 'Rubik', sans-serif;
 font-size: 62.5%;
 }
 
-.section,.section2 {
+.section,.section2,.section3 {
 
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -48,6 +48,7 @@ font-size: 62.5%;
 
 font-size: 62.5%;
 }
+/* =============section2================== */
 
 
 .section2 {
@@ -69,19 +70,35 @@ letter-spacing: 3.75px;
    font-size: 47px;
 }
 
-.section2 h3 {
+/* ====================section 3============ */
+
+.text-heading {
     font-size: 3rem;
     margin-bottom: 3rem;
 }
 
-.section2 p {
+.text-para {
     font-size: 1.8rem;
     line-height: 1.8;
 }
-h1 {
+.text-number {
     font-weight: 700;
     font-size:85px;
     color: #DDDDDD;
 }
 
+.image {
+    width: 35%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    align-items: center;
+}
+
+    
 
